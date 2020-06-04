@@ -1,0 +1,707 @@
+/*####################### Defaults ###########################*/
+
+nav,
+header,
+footer,
+body,
+ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	padding-top:0%;
+	width: 100%;
+	margin: 0%;
+	padding-bottom: 0%;
+	z-index: 0;
+	/* animation: SlideDown;
+	animation-timing-function: ease-in-out;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	transition: ease-in;
+}
+
+@keyframes SlideDown{
+	0% { color: transparent;}
+	25% { color: transparent;}
+	50% { color: transparent;}
+	75% { color: transparent;}
+	100% { color: black;}	  */
+}
+
+.logo{
+	position: absolute;
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/logo/logo_tribal_3d_trans.png);
+	background-color: transparent;
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	padding: 8%;
+	top: 0%;
+	z-index: 1;
+	}
+
+.nav_container{
+	position: absolute;
+	padding-top: 10%;
+	padding-bottom: 0%;
+	background-color: transparent;
+	top: -200%;
+	left:0%;
+	width: 100%;
+	margin: 0%;
+	z-index: 2;
+
+	}
+
+.test{
+	color: black;
+	background-color: blue;
+	height: auto;
+	width: 100%;
+	padding: 5%;
+	text-align: center;
+
+	}
+
+
+
+
+
+
+/* ################### Top container #############################*/
+.top_container{
+	position: relative;
+	top: 10%;
+	left: 0%;
+	width: 100%;
+	padding-top: 35%;
+	padding-bottom:30%;
+	background-color: transparent;
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/index_top_box_images/apple-1868496_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+
+.text_box1{
+	background-color: transparent;
+	position: relative;
+	width: 400px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	top: 350px;
+	left: 29%;
+	animation: box1;
+	animation-duration: 3s;	
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	animation-timing-function: ease-in;
+	transition-duration: 0.5s;
+	font-size: 30px;
+	color: transparent;
+	text-align: center;
+}
+
+@keyframes box1{
+	0% {display: block; color: black; background-color: transparent; top: 350px;}
+	100% {display: block; color: transparent; background-color: transparent; top: 350px;}
+	}
+
+
+.text_box2{
+	background-color: transparent;
+	position: fixed;
+	width: 130px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	top: 350px;
+	left: 43%;
+	animation: box1;
+	animation-duration: 2s;	
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+	animation-timing-function: ease-in;
+	transition-duration: 0.5s;
+	font-size: 20px;
+	color: transparent;
+	text-align: center;
+}
+
+@keyframes box1{
+	0% {display: block; color: red; background-color: transparent; top: 350px;}
+	100% {display: block; color: transparent; background-color: transparent; top: 350px;}
+	}
+
+
+.text_box3{
+	background-color: transparent;
+	position: fixed;
+	width: 130px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	top: 350px;
+	left: 43%;
+	animation: box1;
+	animation-duration: 6s;	
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
+	animation-timing-function: ease-in;
+	transition-duration: 0.5s;
+	font-size: 20px;
+	color: transparent;
+	text-align: center;
+}
+
+@keyframes box1{
+	0% {display: block; color: blue; background-color: transparent; top: 350px;}
+	100% {display: block; color: transparent; background-color: transparent; top: 350px;}
+	}
+
+.text_box4{
+	background-color: transparent;
+	position: fixed;
+	width: 130px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	top: 350px;
+	left: 43%;
+	animation: box1;
+	animation-duration: 6s;	
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
+	animation-timing-function: ease-in;
+	transition-duration: 1s;
+	font-size: 20px;
+	color: transparent;
+	text-align: center;
+}
+
+@keyframes box1{
+	0% {display: block; color: blue; background-color: transparent; top: 350px;}
+	100% {display: block; color: transparent; background-color: transparent; top: 350px;}
+	}
+
+
+
+.container{
+	opacity: 1;
+	width: 100%;	
+	margin: auto;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+.row{
+	background-color: transparent;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+
+	.col-1 { width: 8.33%;}
+	.col-2 { width: 16.66%;}
+	.col-3 { width: 25%;}
+	.col-4 { width: 33.33%;}
+	.col-5 { width: 41.66%;}
+	.col-6 { width: 50%;}
+	.col-7 { width: 58.33%;}
+	.col-8 { width: 66.66%;}
+	.col-9 { width: 75%;}
+	.col-10 { width: 83.33%;}
+	.col-11 { width: 91.66%;}
+	.col-12 { width: 100%;}
+
+div .top_container{
+	position: absolute;
+	top: 15%;
+}
+
+
+/*########### services coloms ################*/
+
+div.services_container{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/footer/Abstract-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	letter-spacing: 2px;
+	font-weight: 1000;
+	color: red;
+	top: 0%;
+	left: 0%;
+	width: 100%;	
+	margin: auto;
+	padding-bottom: 7%;
+}
+
+div.services_heading_colom{
+	text-transform: uppercase;
+	text-align: center;
+	color: teal;
+	font-size: 12px;
+	text-shadow: 0px 0px black;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+div .img{
+	background-color: transparent;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+div .button {
+	position: relative;
+	cursor: pointer;
+	border: 0;
+	background: grey;
+	color: white;
+	padding: 18% 18%;
+	z-index: 1;
+}
+
+div .button + .button {
+	margin-left: 1px;
+}
+
+div .button::after {
+	content: '';
+	position: absolute;
+	top: 0;
+  	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	transition: transform 200ms ease-out;
+	z-index: -1;
+  	
+}
+
+div .app_dev_container_colom_button{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/app-dev/Mobile_app.jpg);
+	background-color: black;
+	position: relative;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-family: arial;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	font-size: 30px;
+	color: azure;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	width: 99.6%;
+	margin-right: 0.2%;
+	margin-bottom: 0.2%;
+	z-index: 1;
+	opacity: 1;
+}
+
+div .app_dev_container_colom_button::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.6;
+	transition: transform 250ms ease-in;
+	z-index: -1;
+}
+
+div .app_dev_container_colom_button::after{
+  	transform: scaleY(0);
+  	transform-origin: left;
+}
+
+div .app_dev_container_colom_button:hover::after {
+ 	transform: scaleY(1);
+  	transform-origin: left;
+}
+
+
+div .web_dev_container_colom_button{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/web-dev/epicdev-web-dev-company-durban.jpg);
+	position: relative;
+	cursor: pointer;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-shadow: 3px 3px black;
+	font-family: arial;
+	background-size: cover;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	color: azure;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	width: 99.6%;
+	margin-left: 0.2%;
+	margin-bottom:0.2%;
+	z-index: 1;
+	opacity: 1;
+}
+
+div .web_dev_container_colom_button::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.5);
+	transition: transform 250ms ease-in;
+	z-index: -1;
+}
+
+div .web_dev_container_colom_button::after{
+  	transform: scaleY(0);
+  	transform-origin: left;
+}
+
+div .web_dev_container_colom_button:hover::after {
+ 	transform: scaleY(1);
+  	transform-origin: left;
+}
+
+div .aug_reality_container_colom_button{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/augment-reality/getty_839504810_358616.jpg);
+	background-color: black;
+	position: relative;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-family: arial;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	font-size: 30px;
+	color: azure;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	width: 99.6%;
+	margin-right: 0.2%;
+	margin-top: 0.2%;
+	z-index: 1;
+	opacity: 1;
+}
+
+div .aug_reality_container_colom_button::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;;
+	background: black;
+	opacity: 0.6;
+	transition: transform 250ms ease-in;
+	z-index: -1;
+}
+
+div .aug_reality_container_colom_button::after{
+  	transform: scaleY(0);
+  	transform-origin: left;
+}
+
+div .aug_reality_container_colom_button:hover::after {
+ 	transform: scaleY(1);
+  	transform-origin: left;
+}
+
+div .ecommers_container_colom_button{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/ecommers/e-commerce.png);
+	background-color: black;
+	position: relative;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: arial;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	font-size: 30px;
+	color: azure;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	width: 99.6%;
+	margin-left: 0.2%;
+	margin-top: 0.2%;
+	z-index: 1;
+	opacity: 1;
+}
+
+div .ecommers_container_colom_button::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: black;
+	opacity: 0.6;
+	transition: transform 250ms ease-in;
+	z-index: -1;
+}
+
+div .ecommers_container_colom_button::after{
+  	transform: scaleY(0);
+  	transform-origin: left;
+}
+
+div .ecommers_container_colom_button:hover::after {
+ 	transform: scaleY(1);
+  	transform-origin: left;
+}
+
+div .quote_container_colom_img{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/index-quote-images/14-147537_yosemite-wallpaper-high-resolution-yosemite-wallpaper-yosemite-national.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	background-origin: padding-box;
+	padding-top: 14%;
+	padding-bottom: 14%;
+	margin: 0%;
+}
+
+div .quote_container_colom_bnt{
+	position: relative;
+	background-color: black;
+	text-transform: uppercase;
+	text-align: center;
+	color: azure;
+	font-family: arial;
+	font-size: 10px;
+	padding: 1%;
+	border: 0;
+}
+
+div .footer_container_background{
+	background-image: url(C:/Users/jeanh/OneDrive/Desktop/website/website_images/coloms-images/footer/33400.jpg);
+	background-size:cover;
+	padding-top: 0%;
+	padding-bottom: 16%;
+	margin: auto;
+}
+
+
+
+div .footer_colom1{
+	position: relative;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	color: azure;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+div .footer_colom1_font{
+	position: relative;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: arial;
+	background-size: cover;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: darkslategrey;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 0;
+}
+
+div .footer_colom2{
+	background-color:red;
+	margin: auto;
+	padding: 0%;
+	border: 0;
+	
+}
+div .footer_colom3{
+	background-color: yellow;
+	margin: auto;
+	padding: 0%;
+	border: 0;
+	
+}
+div .footer_colom4{
+	background-color: green;
+	margin: auto;
+	padding: 0%;
+	border: 0;
+}
+div .footer_colom5{
+	background-color: green;
+	margin: auto;
+	padding: 0%;
+	border: 0;
+}
+
+
+
+/*####################### Nav bar ###########################*/
+
+nav {
+	position: absolute;
+	margin:0%;
+}
+
+
+nav ul{
+	position: absolute;
+	background-color: transparent;
+	overflow: hidden;
+	width: 86.5%;
+	font-family: Electrolize;
+	font-size: 16px;
+	bottom: 30%;
+	padding-bottom: 0%;
+	left: 13.5%;
+	z-index: 2;
+}
+
+ul.topnav li {
+	list-style: none;
+	float:left;
+}
+
+ul.topnav li.topnav_right{
+	float: right;
+}
+
+ul.topnav li a {
+	display: block;
+	min-height: 0px;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	line-height: 1px;
+	
+
+}
+
+ul.topnav li a:hover {
+	color: #03FDFC;
+}
+
+ul.topnav li.dropdownIcon {
+	display: none;
+}
+
+
+nav ul li .link_hover{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	letter-spacing: 1px;
+	font-weight: 500;
+
+}
+nav ul li .link_hover::after {
+	 content: '';
+	 position: absolute;
+	 left: 20%;
+	 bottom: 0px;
+	 width: 100%;
+	 height: 1px;
+	
+
+	 transform: scaleX(0);
+	 transform-origin: right;
+	 transition: transform 250ms ease-in;
+	}
+
+nav ul li .link_hover:hover::after{
+	transform:  scaleX(0.7);
+	transform-origin: left;
+	background: #03FDFC;
+}
+
+/*################## IPAD ##############################*/
+
+@media screen and (max-width: 1024px) {
+	ul.topnav li:not(:nth-child(5)) {
+		display: none;
+	}
+
+
+ul.topnav li.dropdownIcon{
+	display: block;
+	float: right;
+}
+
+ul.topnav.responsive li.dropdownIcon{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+ul.topnav.responsive {
+	position: relative;
+
+}
+
+ul.topnav.responsive li {
+	display: inline;
+	float: none;
+}
+
+
+ul.topnav.responsive li a {
+	display: block;
+	text-align: left;
+
+}
+	
+div .col-6{
+	width: 100%;
+	margin: 0px;
+
+}
+div .remove_on_mobile_colom{
+	display: none;
+
+}
+.top_container{
+	padding-top: 50%;
+	padding-bottom:50%;
+
+	}
+
+}
